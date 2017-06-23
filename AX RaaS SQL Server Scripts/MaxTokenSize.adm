@@ -1,0 +1,18 @@
+!! place in %windir%\Inf\ folder on domain controller
+
+CLASS MACHINE
+
+CATEGORY !!KERB
+
+                KEYNAME "SYSTEM\CurrentControlSet\Control\Lsa\Kerberos\Parameters"
+                POLICY !!MaxToken
+                     VALUENAME "MaxTokenSize"
+                         VALUEON NUMERIC 48000
+                         VALUEOFF NUMERIC 0
+                END POLICY
+
+END CATEGORY
+
+[strings]
+KERB="Kerberos Maximum Token Size"
+MaxToken="Kerberos MaxTokenSize"

@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AX RaaS SQL Server Scripts", "AX RaaS SQL Server Scripts\AX RaaS SQL Server Scripts.ssmssqlproj", "{4B54A990-5D7C-4D54-AAEC-91EDE6BAF3DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B54A990-5D7C-4D54-AAEC-91EDE6BAF3DB}.Default|Default.ActiveCfg = Default
+		{3EE7EC97-FE45-4420-B665-8817134CE9D7}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
